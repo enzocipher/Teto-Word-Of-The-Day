@@ -1,0 +1,10 @@
+[package]
+name = "trng"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+getrandom = "0.4.2"
+random_word = { version = "0.5.2", features = ["es"] }
+sha2 = "0.11.0"
+base64 = "0.22.1"
